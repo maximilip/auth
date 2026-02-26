@@ -1,9 +1,19 @@
 Rails.application.routes.draw do
   resources "companies"
+  # 7 RESTful routes
+  # get index
+  # get show
+  # get new (new form)
+  # post create
+  # get edit (edit form)
+  # patch update
+  # delete destroy
   resources "contacts"
   resources "activities"
   resources "tasks"
   resources "users"
+  # get new
+  # post "users", controller -> users
 
   resources "sessions"
   # get("/sessions", {:controller => "sessions", :action => "index"})
