@@ -29,6 +29,8 @@
 
 <h4>Log Activity:</h4>
 
+<% if session["user_id"] != nil %>
+
 <form action="/activities" method="post">
   <p>
     <select name="activity_type" id="activity_type_select">

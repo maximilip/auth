@@ -5,5 +5,8 @@ class UsersTest < ActionDispatch::IntegrationTest
   end
 
   test "users create does not create a user with a duplicate email" do
+    # create user with email
+    # submit new user form with same email
+    # test that user.count == 1
   end
 end
